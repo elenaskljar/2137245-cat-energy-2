@@ -2,7 +2,7 @@
 
 * Студент: [Елена  Скляренко](https://up.htmlacademy.ru/adaptive-individual/2/user/2137245).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
-Сайт: [Мой Кэт энерджи](https://elenaskljar.github.io/2137245-cat-energy-2/).
+Сайт: [Мой проект Кэт энерджи](https://elenaskljar.github.io/2137245-cat-energy-2/).
 
 ---
 
