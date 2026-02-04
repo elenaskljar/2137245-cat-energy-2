@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Елена  Скляренко](https://up.htmlacademy.ru/adaptive-individual/2/user/2137245).
-* Наставник: `Анна Лисененкова`.
+* Наставник: `Анна Лисененкова`[(https://htmlacademy.ru/profile/ankhena)].
 
 ---
 
