@@ -49,12 +49,12 @@
         <h1 class="hero__title heading heading--home">Функциональное питание для котов</h1>
         <p class="hero__description">Занялся собой? Займись котом!</p>
         <picture>
-          <source width="552" height="499" type="image/webp" media="(min-width: 1440px)" srcset="images/index-can-desktop@1x.webp, images/index-can-desktop@2x.webp 2x">
-          <source width="709" height="609" type="image/webp" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.webp, images/index-can-tablet@2x.webp 2x">
-          <source width="280" height="270" type="image/webp" srcset="images/index-can-tablet@1x.webp, images/index-can-tablet@2x.webp 2x">
-          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x">
-          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x">
-          <img class="hero__img" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Продукт Cat Energy">
+          <source width="552" height="499" type="image/webp" media="(min-width: 1440px)" srcset="images/index-cat-desktop@1x.webp, images/index-cat-desktop@2x.webp 2x">
+          <source width="709" height="609" type="image/webp" media="(min-width: 768px)" srcset="images/index-cat-tablet@1x.webp, images/index-cat-tablet@2x.webp 2x">
+          <source width="280" height="270" type="image/webp" srcset="images/index-can-mobile@1x.webp, images/index-cat-mobile@2x.webp 2x">
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index-cat-desktop@1x.png 1x, images/index-cat-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index-cat-tablet@1x.png 1x, images/index-cat-tablet@2x.png 2x">
+          <img class="hero__img" src="images/index-cat-mobile@1x.png" srcset="images/index-cat-mobile@2x.png 2x" width="280" height="270" alt="Продукт Cat Energy">
         </picture>
         <a class="hero__button button" href="#">
           Подобрать программу
@@ -64,13 +64,13 @@
     <section class="program">
       <div class="program__container container">
         <h2 class="visually-hidden">Выбор программы питания котов</h2>
-        <ul class="program__list program-list">
-          <li class="program-list__item program">
+        <ul class="program__list">
+          <li class="program__item program__item--slim programs">
             <h3 class="program__title topic program__title--slim">Похудение</h3>
             <p class="program__text">Ваш кот весит больше собаки и&nbsp;почти утратил способность лазить по&nbsp;деревьям? Пора на&nbsp;диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="program__link" href="#">Каталог Slim</a>
           </li>
-          <li class="program-list__item program">
+          <li class="program__item  program__item--pro programs">
             <h3 class="program__title topic program__title--pro">Набор массы</h3>
             <p class="program__text">Заработать авторитет среди дворовых котов и&nbsp;даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
             <a class="program__link" href="#">Каталог Pro</a>
@@ -124,12 +124,19 @@
         </div>
         <div class="example__slider slider">
           <picture>
+            <source width="560" height="512" type="image/webp" media="(min-width: 768px)" srcset="images/before-tablet@1x.webp, images/before-tablet@2x.webp 2x">
+            <source width="280" height="256" type="image/webp" srcset="images/before-mobile@1x.webp, images/before-mobile@2x.webp 2x">
+
             <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/before-tablet@1x.png 1x, images/before-tablet@2x.png 2x">
-            <img class="slider-image" src="images/before-mobile@1x.png" srcset="images/before-mobile@2x.png 2x" width="560" height="512" alt="Изображение упитанного кота до прохождения программы slim">
+            <img class="slider-image" src="images/before-mobile@1x.png" srcset="images/before-mobile@2x.png 2x" width="280" height="256" alt="Изображение упитанного кота до прохождения программы slim">
           </picture>
           <picture>
+            <source width="560" height="512" type="image/webp" media="(min-width: 768px)" srcset="images/after-tablet@1x.webp, images/after-tablet@2x.webp 2x">
+            <source width="280" height="256" type="image/webp" srcset="images/after-mobile@1x.webp, images/after-mobile@2x.webp 2x">
+
             <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/after-tablet@1x.png 1x, images/after-tablet@2x.png 2x">
-            <img class="slider-image" src="images/after-mobile@1x.png" srcset="images/after-mobile@2x.png 2x" width="560" height="512" alt="Изображение стройного кота, сбросившего лишний вес, после прохождения программы slim">
+            <img class="slider-image" src="images/after-mobile@1x.png" srcset="images/after-mobile@2x.png 2x" width="280" height="256" alt="Изображение стройного кота, сбросившего лишний вес, после прохождения программы slim">
+
           </picture>
 
           <div class="slider__buttons">
@@ -146,10 +153,10 @@
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
       <div class="contacts__wrapper">
-        <div class="contacts__address address">
-          <div class="address__container container">
-            <p class="address__title  topic  topic--address">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
-            <address class="address__text"><span class="address__text-wrap">ул.&nbsp;Большая Конюшенная, д.&nbsp;19/8</span>Санкт-Петербург</address>
+        <div class="contacts__address">
+          <div class="contacts__container container">
+            <p class="contacts__title  topic  topic--contacts">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
+            <address class="contacts__text"><span class="contacts__text-wrap">ул.&nbsp;Большая Конюшенная, д.&nbsp;19/8</span>Санкт-Петербург</address>
           </div>
         </div>
       </div>
@@ -158,8 +165,8 @@
           <source width="1440" height="400" type="image/webp" media="(min-width: 1440px)" srcset="images/map-desktop@1x.webp, images/map-desktop@2x.webp 2x">
           <source width="768" height="400" type="image/webp" media="(min-width: 768px)" srcset="images/map-tablet@1x.webp, images/map-tablet@2x.webp 2x">
           <source width="320" height="362" type="image/webp" srcset="images/map-mobile@1x.webp, images/map-mobile@2x.webp 2x">
-          <source width="1440" height="400" type="image/jpeg" media="(min-width: 1440px)" srcset="images/map-desktop@1x.jpg 1x, images/map-desktop@2x.jpg 2x">
-          <source width="768" height="400" type="image/jpeg" media="(min-width: 768px)" srcset="images/map-tablet@1x.jpeg 1x, images/map-tablet@2x.jpg 2x">
+          <source width="1440" height="400" type="image/jpg" media="(min-width: 1440px)" srcset="images/map-desktop@1x.jpg 1x, images/map-desktop@2x.jpg 2x">
+          <source width="768" height="400" type="image/jpg" media="(min-width: 768px)" srcset="images/map-tablet@1x.jpg 1x, images/map-tablet@2x.jpg 2x">
           <img class="map" src="images/map-mobile@1x.jpg" srcset="images/map-mobile@2x.jpg 2x" width="320" height="362" alt="Местоположение главного штаба Cat Energy на карте">
         </picture>
       </div>
